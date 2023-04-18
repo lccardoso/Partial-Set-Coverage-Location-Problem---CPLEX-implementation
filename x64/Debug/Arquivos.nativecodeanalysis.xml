@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<DEFECTS>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>23</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Valor de retorno ignorado: "getchar".</DESCRIPTION>
+    <FUNCTION>obter_parametros_fl</FUNCTION>
+    <DECORATED>?obter_parametros_fl@@YAXQEADPEAH1@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>27</LINE>
+      <COLUMN>7</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Valor de retorno ignorado: "fscanf".</DESCRIPTION>
+    <FUNCTION>obter_parametros_fl</FUNCTION>
+    <DECORATED>?obter_parametros_fl@@YAXQEADPEAH1@Z</DECORATED>
+    <FUNCLINE>13</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>56</LINE>
+      <COLUMN>9</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Valor de retorno ignorado: "getchar".</DESCRIPTION>
+    <FUNCTION>le_arq_matrizfl</FUNCTION>
+    <DECORATED>?le_arq_matrizfl@@YAXQEADHHPEAPEAM1PEAH2@Z</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>63</LINE>
+      <COLUMN>8</COLUMN>
+    </SFA>
+    <DEFECTCODE>6031</DEFECTCODE>
+    <DESCRIPTION>Valor de retorno ignorado: "fscanf".</DESCRIPTION>
+    <FUNCTION>le_arq_matrizfl</FUNCTION>
+    <DECORATED>?le_arq_matrizfl@@YAXQEADHHPEAPEAM1PEAH2@Z</DECORATED>
+    <FUNCLINE>36</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>43</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Estouro aritmético: usando o operador '-' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '-' para evitar estouro (io.2).</DESCRIPTION>
+    <FUNCTION>cria_matriz_distfl</FUNCTION>
+    <DECORATED>?cria_matriz_distfl@@YAPEAPEAMHHPEAPEAM0@Z</DECORATED>
+    <FUNCLINE>94</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+  <DEFECT>
+    <SFA>
+      <FILEPATH>C:\Users\Usuario\source\repos\Projeto1\Projeto1\</FILEPATH>
+      <FILENAME>Arquivos.cpp</FILENAME>
+      <LINE>101</LINE>
+      <COLUMN>71</COLUMN>
+    </SFA>
+    <DEFECTCODE>26451</DEFECTCODE>
+    <DESCRIPTION>Estouro aritmético: usando o operador '-' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '-' para evitar estouro (io.2).</DESCRIPTION>
+    <FUNCTION>cria_matriz_distfl</FUNCTION>
+    <DECORATED>?cria_matriz_distfl@@YAPEAPEAMHHPEAPEAM0@Z</DECORATED>
+    <FUNCLINE>94</FUNCLINE>
+    <PATH></PATH>
+  </DEFECT>
+</DEFECTS>

@@ -1,0 +1,3 @@
+﻿  main.cpp
+C:\Users\Usuario\source\repos\Projeto1\Projeto1\main.cpp(2,9): warning C4067: tokens inesperados após diretiva de pré-processador - esperado um newline
+C:\Users\Usuario\source\repos\Projeto1\Projeto1\main.cpp(2,9): fatal error C1083: Não é possível abrir arquivo incluir: 'ilcplex/ilocplex.h': No such file or directory

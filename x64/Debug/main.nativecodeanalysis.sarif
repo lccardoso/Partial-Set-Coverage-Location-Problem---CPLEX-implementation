@@ -1,0 +1,2870 @@
+{
+  "version": "2.1.0",
+  "$schema": "https://schemastore.azurewebsites.net/schemas/json/sarif-2.1.0-rtm.5.json",
+  "runs": [
+    {
+      "results": [
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloParsingNumberMismatch::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloenv.h"
+                },
+                "region": {
+                  "startLine": 127,
+                  "startColumn": 26,
+                  "endLine": 127,
+                  "endColumn": 42
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloParsingNumberMismatch::isInt",
+                  "decoratedName": "?isInt@IloParsingNumberMismatch@@QEBA_JXZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloDeleterMode' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloenv.h"
+                },
+                "region": {
+                  "startLine": 610,
+                  "startColumn": 42,
+                  "endLine": 610,
+                  "endColumn": 49
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloEnvI::getDeleterMode",
+                  "decoratedName": "?getDeleterMode@IloEnvI@@QEBA?AW4IloDeleterMode@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'IloNamedPropertySet::NotPresent::_np' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloenv.h"
+                },
+                "region": {
+                  "startLine": 1382,
+                  "startColumn": 3,
+                  "endLine": 1382,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloNamedPropertySet::NotPresent::{ctor}",
+                  "decoratedName": "??0NotPresent@IloNamedPropertySet@@QEAA@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "IloNamedPropertySet::NotPresent::_np"
+          }
+        },
+        {
+          "ruleId": "C26451",
+          "message": {
+            "text": "Estouro aritmético: usando o operador '*' em um valor de byte 4 e, em seguida, convertendo o resultado em um valor de byte 8. Converta o valor no tipo mais amplo antes de chamar o operador '*' para evitar estouro (io.2)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloenv.h"
+                },
+                "region": {
+                  "startLine": 1898,
+                  "startColumn": 42,
+                  "endLine": 1898,
+                  "endColumn": 46
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloSquare",
+                  "decoratedName": "?IloSquare@@YA_JH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloNumVar::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloexpression.h"
+                },
+                "region": {
+                  "startLine": 1071,
+                  "startColumn": 36,
+                  "endLine": 1071,
+                  "endColumn": 43
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloBoolVar::getType",
+                  "decoratedName": "?getType@IloBoolVar@@QEBA?AW4Type@IloNumVar@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloObjective::Sense' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilolinear.h"
+                },
+                "region": {
+                  "startLine": 1252,
+                  "startColumn": 42,
+                  "endLine": 1252,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloObjectiveI::getSense",
+                  "decoratedName": "?getSense@IloObjectiveI@@QEBA?AW4Sense@IloObjective@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloMultiCriterionExprI::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilolinear.h"
+                },
+                "region": {
+                  "startLine": 1445,
+                  "startColumn": 50,
+                  "endLine": 1445,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloMultiCriterionExprI::getType",
+                  "decoratedName": "?getType@IloMultiCriterionExprI@@QEBA?AW4Type@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloSched::Shape' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilosbasic.h"
+                },
+                "region": {
+                  "startLine": 140,
+                  "startColumn": 17,
+                  "endLine": 140,
+                  "endColumn": 17
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloSched::IsDecreaseShape",
+                  "decoratedName": "?IsDecreaseShape@IloSched@@SA_JW4Shape@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloSchedChange::IloChangeMode' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilosbasic.h"
+                },
+                "region": {
+                  "startLine": 243,
+                  "startColumn": 40,
+                  "endLine": 243,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloSchedChange::getChangeMode",
+                  "decoratedName": "?getChangeMode@IloSchedChange@@QEBA?AW4IloChangeMode@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloIntervalVarExprI::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloexpressioni.h"
+                },
+                "region": {
+                  "startLine": 1863,
+                  "startColumn": 25,
+                  "endLine": 1863,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloIntervalVarExprI::getType",
+                  "decoratedName": "?getType@IloIntervalVarExprI@@QEBA?AW4Type@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloIntervalVarEvalI::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilostimei.h"
+                },
+                "region": {
+                  "startLine": 89,
+                  "startColumn": 25,
+                  "endLine": 89,
+                  "endColumn": 47
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloIntervalVarEvalI::getType",
+                  "decoratedName": "?getType@IloIntervalVarEvalI@@QEBA?AW4Type@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloForbidTimesI::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilostimei.h"
+                },
+                "region": {
+                  "startLine": 154,
+                  "startColumn": 25,
+                  "endLine": 154,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloForbidTimesI::getType",
+                  "decoratedName": "?getType@IloForbidTimesI@@QEBA?AW4Type@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloSched::StatusRelationType' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilostimei.h"
+                },
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 2,
+                  "endLine": 229,
+                  "endColumn": 2
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloStatusRelationI::{ctor}",
+                  "decoratedName": "??0IloStatusRelationI@@QEAA@PEAVIloEnvI@@PEAVIloIntervalExprI@@W4StatusRelationType@IloSched@@1@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'IloSolutionI::Iterator::_solution' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilosolution.h"
+                },
+                "region": {
+                  "startLine": 1152,
+                  "startColumn": 3,
+                  "endLine": 1152,
+                  "endColumn": 3
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloSolutionI::Iterator::{ctor}",
+                  "decoratedName": "??0Iterator@IloSolutionI@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "IloSolutionI::Iterator::_solution"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'CPXCALLBACKINFO' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/cplexx.h"
+                },
+                "region": {
+                  "startLine": 296,
+                  "startColumn": 4,
+                  "endLine": 296,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CPXXcallbackgetinfodbl",
+                  "decoratedName": "CPXXcallbackgetinfodbl",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'CPXCALLBACKSOLUTIONSTRATEGY' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/cplexx.h"
+                },
+                "region": {
+                  "startLine": 358,
+                  "startColumn": 4,
+                  "endLine": 358,
+                  "endColumn": 4
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "CPXXcallbackpostheursoln",
+                  "decoratedName": "CPXXcallbackpostheursoln",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::IntParam' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+                },
+                "region": {
+                  "startLine": 15,
+                  "startColumn": 45,
+                  "endLine": 15,
+                  "endColumn": 54
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "`anonymous-namespace'",
+                  "decoratedName": "?Advance@Param@IloCplex@@2W4IntParam@2@B",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::NumParam' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+                },
+                "region": {
+                  "startLine": 19,
+                  "startColumn": 51,
+                  "endLine": 19,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::Param::Barrier::ConvergeTol",
+                  "decoratedName": "?ConvergeTol@Barrier@Param@IloCplex@@2W4NumParam@3@B",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::LongParam' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+                },
+                "region": {
+                  "startLine": 23,
+                  "startColumn": 54,
+                  "endLine": 23,
+                  "endColumn": 64
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::Param::Barrier::Limits::Corrections",
+                  "decoratedName": "?Corrections@Limits@Barrier@Param@IloCplex@@2W4LongParam@4@B",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::StringParam' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+                },
+                "region": {
+                  "startLine": 53,
+                  "startColumn": 48,
+                  "endLine": 53,
+                  "endColumn": 60
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::Param::CPUmask",
+                  "decoratedName": "?CPUmask@Param@IloCplex@@2W4StringParam@2@B",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::BoolParam' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+                },
+                "region": {
+                  "startLine": 63,
+                  "startColumn": 47,
+                  "endLine": 63,
+                  "endColumn": 57
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::Param::Emphasis::Memory",
+                  "decoratedName": "?Memory@Emphasis@Param@IloCplex@@2W4BoolParam@3@B",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26439",
+          "message": {
+            "text": "Este tipo de função não deve fazer throw. Declare isso como \"noexcept\" (f.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 137,
+                  "startColumn": 14,
+                  "endLine": 137,
+                  "endColumn": 14
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::AsyncHandle::{dtor}",
+                  "decoratedName": "??1AsyncHandle@IloCplex@@UEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::BranchDirection' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 2432,
+                  "startColumn": 15,
+                  "endLine": 2432,
+                  "endColumn": 38
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::MIPInfoCallbackI::getDirection",
+                  "decoratedName": "?getDirection@MIPInfoCallbackI@IloCplex@@QEBA?AW4BranchDirection@2@VIloIntVar@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::ControlCallbackI::IntegerFeasibility' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 2747,
+                  "startColumn": 15,
+                  "endLine": 2747,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::ControlCallbackI::getFeasibility",
+                  "decoratedName": "?getFeasibility@ControlCallbackI@IloCplex@@QEBA?AW4IntegerFeasibility@12@VIloIntVar@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::GoalI::IntegerFeasibility' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 3323,
+                  "startColumn": 15,
+                  "endLine": 3323,
+                  "endColumn": 40
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::GoalI::getFeasibility",
+                  "decoratedName": "?getFeasibility@GoalI@IloCplex@@QEBA?AW4IntegerFeasibility@12@VIloIntVar@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'IloCplex::NodeEvaluatorI::_nIndex' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 3478,
+                  "startColumn": 5,
+                  "endLine": 3478,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::NodeEvaluatorI::{ctor}",
+                  "decoratedName": "??0NodeEvaluatorI@IloCplex@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "IloCplex::NodeEvaluatorI::_nIndex"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::Parameter::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 3715,
+                  "startColumn": 8,
+                  "endLine": 3715,
+                  "endColumn": 24
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::Parameter::{ctor}",
+                  "decoratedName": "??0Parameter@IloCplex@@QEAA@HH_N@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26495",
+          "message": {
+            "text": "A variável 'IloCplexI::Data::index' não foi inicializada. Sempre inicialize uma variável de membro (type.6)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 4148,
+                  "startColumn": 5,
+                  "endLine": 4148,
+                  "endColumn": 5
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplexI::Data::{ctor}",
+                  "decoratedName": "??0Data@IloCplexI@@QEAA@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "properties": {
+            "targetSymbol": "IloCplexI::Data::index"
+          }
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::DeleteMode' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 4320,
+                  "startColumn": 8,
+                  "endLine": 4320,
+                  "endColumn": 8
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplexI::setDeleteMode",
+                  "decoratedName": "?setDeleteMode@IloCplexI@@QEAAXW4DeleteMode@IloCplex@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplexI::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 4698,
+                  "startColumn": 43,
+                  "endLine": 4698,
+                  "endColumn": 68
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplexI::getType",
+                  "decoratedName": "?getType@IloCplexI@@QEBA?AW4Type@1@PEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::BasisStatus' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 4876,
+                  "startColumn": 13,
+                  "endLine": 4876,
+                  "endColumn": 26
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplexI::getRowStatus",
+                  "decoratedName": "?getRowStatus@IloCplexI@@QEBA?AW4BasisStatus@IloCplex@@PEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::CutType' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5381,
+                  "startColumn": 11,
+                  "endLine": 5381,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getNcuts",
+                  "decoratedName": "?getNcuts@IloCplex@@QEBA_JW4CutType@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloAlgorithm::Status' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5714,
+                  "startColumn": 11,
+                  "endLine": 5714,
+                  "endColumn": 31
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getStatus",
+                  "decoratedName": "?getStatus@IloCplex@@QEBA?AW4Status@IloAlgorithm@@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::CplexStatus' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5720,
+                  "startColumn": 11,
+                  "endLine": 5720,
+                  "endColumn": 36
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getCplexStatus",
+                  "decoratedName": "?getCplexStatus@IloCplex@@QEBA?AW4CplexStatus@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::Algorithm' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5744,
+                  "startColumn": 11,
+                  "endLine": 5744,
+                  "endColumn": 34
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getAlgorithm",
+                  "decoratedName": "?getAlgorithm@IloCplex@@QEBA?AW4Algorithm@1@XZ",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::DualPricing' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5866,
+                  "startColumn": 11,
+                  "endLine": 5866,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getDualNorms",
+                  "decoratedName": "?getDualNorms@IloCplex@@QEBAXVIloNumArray@@VIloExprArray@@W4DualPricing@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::Callback::Type' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+                },
+                "region": {
+                  "startLine": 5903,
+                  "startColumn": 11,
+                  "endLine": 5903,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::clear",
+                  "decoratedName": "?clear@IloCplex@@QEAAXW4Type@Callback@1@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::MIPStartEffort' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 511,
+                  "startColumn": 11,
+                  "endLine": 511,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::addMIPStart",
+                  "decoratedName": "?addMIPStart@IloCplex@@QEAA_JVIloNumVarArray@@VIloNumArray@@W4MIPStartEffort@1@PEBD@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::ConflictStatus' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 666,
+                  "startColumn": 10,
+                  "endLine": 666,
+                  "endColumn": 32
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getConflict",
+                  "decoratedName": "?getConflict@IloCplex@@QEBA?AW4ConflictStatus@1@VIloConstraint@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::Quality' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 757,
+                  "startColumn": 11,
+                  "endLine": 757,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getQuality",
+                  "decoratedName": "?getQuality@IloCplex@@QEBANW4Quality@1@PEAVIloNumVar@@PEAVIloConstraint@@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::MultiObjNumInfo' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 787,
+                  "startColumn": 11,
+                  "endLine": 787,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getMultiObjInfo",
+                  "decoratedName": "?getMultiObjInfo@IloCplex@@QEBANW4MultiObjNumInfo@1@_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::MultiObjIntInfo' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 793,
+                  "startColumn": 11,
+                  "endLine": 793,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getMultiObjInfo",
+                  "decoratedName": "?getMultiObjInfo@IloCplex@@QEBA_JW4MultiObjIntInfo@1@_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::MultiObjInt64Info' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 799,
+                  "startColumn": 11,
+                  "endLine": 799,
+                  "endColumn": 11
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getMultiObjInfo",
+                  "decoratedName": "?getMultiObjInfo@IloCplex@@QEBA_JW4MultiObjInt64Info@1@_J@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C26812",
+          "message": {
+            "text": "O tipo enumerado 'IloCplex::FilterType' não está no escopo. Prefira 'classe enumerada' em vez de 'enumeração' (Enum.3)."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+                },
+                "region": {
+                  "startLine": 1522,
+                  "startColumn": 10,
+                  "endLine": 1522,
+                  "endColumn": 35
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCplex::getFilterType",
+                  "decoratedName": "?getFilterType@IloCplex@@QEBA?AW4FilterType@1@PEAH@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6001",
+          "message": {
+            "text": "Usando memória não inicializada \"demanda\"."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                },
+                "region": {
+                  "startLine": 77,
+                  "startColumn": 50,
+                  "endLine": 77,
+                  "endColumn": 50
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "main",
+                  "decoratedName": "main",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 14,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 15,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 16,
+                            "startColumn": 9
+                          }
+                        },
+                        "message": {
+                          "text": "\"demanda\" não foi inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "essential"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 17,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 18,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 19,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 20,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 21,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 22,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 23,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 24,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 25,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 26,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 27,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 28,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 29,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 30,
+                            "startColumn": 9
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 33,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 35,
+                            "startColumn": 10
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 37,
+                            "startColumn": 24
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 39,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 41,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 42,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 43,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 44,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 45,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 46,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 47,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 48,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 55,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 56,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 57,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 58,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 59,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 60,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 61,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 62,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 64,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 65,
+                            "startColumn": 7
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 66,
+                            "startColumn": 20
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 73,
+                            "startColumn": 23
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 11
+                          }
+                        },
+                        "message": {
+                          "text": "\"demanda\" é um argumento In/Out para \"printf\" (declarado em c:\\program files (x86)\\windows kits\\10\\include\\10.0.19041.0\\ucrt\\stdio.h:950)"
+                        }
+                      },
+                      "kinds": [
+                        "declaration"
+                      ],
+                      "importance": "important"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 78,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 81,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 82,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 83,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 85,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 90,
+                            "startColumn": 12
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 91,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 92,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 15
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 25
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 35
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 45
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 55
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 94,
+                            "startColumn": 65
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 96,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 98,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 99,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 100,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 101,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 102,
+                            "startColumn": 14
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 104,
+                            "startColumn": 18
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 105,
+                            "startColumn": 16
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 106,
+                            "startColumn": 1
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+                          },
+                          "region": {
+                            "startLine": 77,
+                            "startColumn": 50
+                          }
+                        },
+                        "message": {
+                          "text": "\"demanda\" é usado, mas pode não ter sido inicializado"
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "ruleId": "C6387",
+          "message": {
+            "text": "'_data' pode ser '0'."
+          },
+          "locations": [
+            {
+              "physicalLocation": {
+                "artifactLocation": {
+                  "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                },
+                "region": {
+                  "startLine": 122,
+                  "startColumn": 5,
+                  "endLine": 122,
+                  "endColumn": 52
+                }
+              },
+              "logicalLocations": [
+                {
+                  "fullyQualifiedName": "IloCarray<int *>::{ctor}",
+                  "decoratedName": "??0?$IloCarray@PEAH@@QEAA@AEBV0@@Z",
+                  "kind": "function"
+                }
+              ]
+            }
+          ],
+          "codeFlows": [
+            {
+              "threadFlows": [
+                {
+                  "locations": [
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                          },
+                          "region": {
+                            "startLine": 117,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                          },
+                          "region": {
+                            "startLine": 118,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                          },
+                          "region": {
+                            "startLine": 119,
+                            "startColumn": 13
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                          },
+                          "region": {
+                            "startLine": 121,
+                            "startColumn": 11
+                          }
+                        }
+                      },
+                      "importance": "unimportant"
+                    },
+                    {
+                      "location": {
+                        "physicalLocation": {
+                          "artifactLocation": {
+                            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+                          },
+                          "region": {
+                            "startLine": 122,
+                            "startColumn": 12
+                          }
+                        },
+                        "message": {
+                          "text": "\"_data\" não deve ser NULL, porque isto não é consistente com a anotação SAL em \"memcpy\""
+                        }
+                      },
+                      "kinds": [
+                        "usage"
+                      ],
+                      "importance": "essential"
+                    }
+                  ]
+                }
+              ]
+            }
+          ]
+        }
+      ],
+      "tool": {
+        "driver": {
+          "name": "PREfast",
+          "fullName": "PREfast Code Analysis",
+          "version": "14.31.31106.2",
+          "informationUri": "https://aka.ms/cpp/ca"
+        }
+      },
+      "invocations": [
+        {
+          "commandLine": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\c1xx.dll\" -ACf{1F7B090C-16DB-4822-966A-A93D26ED4681} -ACpmspft140.dll -Alint -D_PREFAST_ -D_AST_FE_ -Analyze -zm0x00007FF738B89CC0 -il C:\\Users\\Usuario\\AppData\\Local\\Temp\\_CL_90d268abast -typedil -f main.cpp -Ze -D_MSC_EXTENSIONS -Zp16 -pc \\:/ -D_MSC_VER=1931 -D_MSC_FULL_VER=193131106 -D_MSC_BUILD=2 -D_M_AMD64=100 -ZILP448 -D_M_X64=100 -D_WIN64 -D_WIN32 -GR -D_CPPRTTI -I C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio201\\concert\\include -I C:\\Program Files\\IBM\\ILOG\\CPLEX_Studio201\\cplex\\include -nologo -W 3 -diagnostics:column -D_GUARDOVERFLOW_CRT_ALLOCATORS=1 -Ot -DCODE_ANALYSIS -DNDEBUG -D_CONSOLE -DIL_STD -D_CRT_SECURE_NO_WARNINGS -D_UNICODE -DUNICODE -EHs -D_CPPUNWIND -EHc -D__MSVC_RUNTIME_CHECKS -RTCs -RTCu -MD -D_MT -D_DLL -GS -D_M_FP_PRECISE -Zc:wchar_t -Zc:forScope -permissive- -Fox64\\Debug\\main.obj -Fdx64\\Debug\\vc143.pdb -external:W 3 -Gd -analyze:projectdirectory C:\\Users\\Usuario\\source\\repos\\Projeto1\\Projeto1 -analyze:rulesetdirectory ;C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\\\Rule Sets; -analyze:ruleset C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\Team Tools\\Static Analysis Tools\\Rule Sets\\NativeRecommendedRules.ruleset -analyze:quiet -analyze:plugin C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\bin\\HostX64\\x64\\EspXEngine.dll -FC -errorreport:prompt -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Users\\Usuario\\source\\repos\\Projeto1\\Projeto1\\Include\\um -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.31.31103\\atlmfc\\include -external:I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -I C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Auxiliary\\VS\\include -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\ucrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\um -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\shared -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\winrt -external:I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -I C:\\Program Files (x86)\\Windows Kits\\10\\Include\\10.0.19041.0\\cppwinrt -external:I C:\\Users\\Usuario\\source\\repos\\Projeto1\\Projeto1\\Include\\um -I C:\\Users\\Usuario\\source\\repos\\Projeto1\\Projeto1\\Include\\um",
+          "executionSuccessful": true
+        }
+      ],
+      "artifacts": [
+        {
+          "location": {
+            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/Util.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e2f884bc587774161908c4fac1f3427aa52039f1ba2eb8d34e67610f7a1cd9ff"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/usuario/source/repos/projeto1/projeto1/util.h"
+          },
+          "hashes": {
+            "sha-256": "e84fba0d1cbca3ddcdcef368a09df5c6dae54f9d8766776d465ae02284551394"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloenv.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "22439c90b34b224e889081a80fc787a13c15388f65941e937a29ff10ac75ceb4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloexpression.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "e62f3d9fd8fed931c9a05ef4cc052eeb787aeba34277fc30a8d4d982beaf34fc"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilolinear.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "64fc7b814fe5fa332baf23b2c5a6ad1d73c948ce61d179fa40d5d9caef5dd93a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilosbasic.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "c61af17e52ea28e569216e56d3be9967317d58b76ae62d82bc2b4e16a3607a89"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/iloexpressioni.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "8566f64182828e8230b9daf8368c4e3169636cca9a7248ebe78e87e90f5b015e"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilsched/ilostimei.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "133dee2a2201944e82367293b290583c722d2871380f0eddacdcfec2dab69aa6"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/concert/include/ilconcert/ilosolution.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "afd4fee73541c6e57dc611151987457d40ad5b91ea90dfd624a57da22cb3783d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/cplexx.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "bd8a2913a749123e7df816096ae03ca5e5bfd4fd5cc6650ad6fbc553e5718593"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/iloparam.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "3bcb2c30b5a4d7d9dc75e2bbf87d885dc7c37dfe60fd61976f24b14fa7188ef3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplexi.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "394a77d9dc94001c1b540acf0ad31682160dbc88f1eb813f92626baf471e1fc7"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocplex.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "45e2245e3006e96918c9d7e49a79e89438b1b4aa81528a172068ce7c9b957ff3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Users/Usuario/source/repos/Projeto1/Projeto1/main.cpp"
+          },
+          "roles": [
+            "analysisTarget",
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "82114c9e7d5765573a418701311954777acedef32aa1a9346e4dc4edc9da3ca2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///C:/Program Files/IBM/ILOG/CPLEX_Studio201/cplex/include/ilcplex/ilocarray.h"
+          },
+          "roles": [
+            "resultFile"
+          ],
+          "hashes": {
+            "sha-256": "87f212aae78f96c1b6905d833d9d5e005505f5f9822c52fc5c67b1f0de87163d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilomodel.h"
+          },
+          "hashes": {
+            "sha-256": "8043d3dadb73b9289149e52a857318b267fb7ccff644eb505e9e510917acd249"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloalg.h"
+          },
+          "hashes": {
+            "sha-256": "fe6ff28c88906c994f96b31697781483eaf92d483b29445933acfe70c633868a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilosys.h"
+          },
+          "hashes": {
+            "sha-256": "72da4982e0aee1f3829bcdd2a0ff03c8668cd962815f75091e629d8ad2fb70df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilortti.h"
+          },
+          "hashes": {
+            "sha-256": "f36d68bfd848153545c5763ef3a758c38dd573f71ce9e76399dba767261d7484"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilomemmgr.h"
+          },
+          "hashes": {
+            "sha-256": "670e8225eaf99699b08dd926de0ee09a5250cecca73744dd8ad3464e913f4117"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloallocator.h"
+          },
+          "hashes": {
+            "sha-256": "d68f7dee97597ef799caa674d8b9ae2165b94cacd851e7667601f88ca0aac452"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloextractable.h"
+          },
+          "hashes": {
+            "sha-256": "8d0c23e6aa1967c5752625cfcfaf8e2ab39596d7f797e6df67f86a53dfdcba7f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilolinkedlist.h"
+          },
+          "hashes": {
+            "sha-256": "8a2c42ad7b115c9751d5ff8d9f9f293d00ab7ed8b7313e8a2170247670707ff8"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloiterator.h"
+          },
+          "hashes": {
+            "sha-256": "fdc5f96e44f6b66deb277ef465915a72257c6fb68944dab0de68c577f8e50c80"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloset.h"
+          },
+          "hashes": {
+            "sha-256": "fab9b588ceab749aba0a56d3f159dca01a25ecdd2df55d0436247adde5ec6720"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilocollection.h"
+          },
+          "hashes": {
+            "sha-256": "606098ce10aa9cdcbc21fc9f6f59168f9d6cfcfb4c885b46745260b1e9b4679b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloanyset.h"
+          },
+          "hashes": {
+            "sha-256": "99f300ebc6430dc913f5fb05a28507ba6def66a661cf4bb9ef890fefe01b02e5"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloany.h"
+          },
+          "hashes": {
+            "sha-256": "f9e9a2618723c808170555f57700870d2cf7d8114df40053e4ebb219fa1875df"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilobox.h"
+          },
+          "hashes": {
+            "sha-256": "469e4770a0fae9b9f02587b435625106ca4c43d549a2ce032cfcc0f23116ff7b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilorandom.h"
+          },
+          "hashes": {
+            "sha-256": "436c09632c5e98108cb51c0916f1a4f7249f673ee7fe085b53b5e1855f2c4f45"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilosmodel.h"
+          },
+          "hashes": {
+            "sha-256": "5f089cafa846ba2517d4186a432427c8378d3cbe4e254d62a19a79935cb9f018"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilonumfunci.h"
+          },
+          "hashes": {
+            "sha-256": "ee4ad52e429b2c05201fff9ab4abb4bdf0b9ca8d32179dbb34f3047d48174b57"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilointervalsi.h"
+          },
+          "hashes": {
+            "sha-256": "8fc9cf7df7780310860ffe92bd467c24b2d20d5010d117496989797e6495e35d"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloskiplist.h"
+          },
+          "hashes": {
+            "sha-256": "c72303e6183383c54cc6e0b2ca11152254dd489b4a81e73def7de9558ca75bd9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloparami.h"
+          },
+          "hashes": {
+            "sha-256": "7820d79887f8181e4a0247ec5806133924b26642b473c4273d447c41444628f3"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilobasic.h"
+          },
+          "hashes": {
+            "sha-256": "37831d5990426df4557c21f1e4526ae95ea0750cba5b0f2a5e2b6a5b1b4b0a07"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilointervals.h"
+          },
+          "hashes": {
+            "sha-256": "61ce5441be568c6777b3f0fe81962f515457d0047d3432dc068f896615cc46f2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloparam.h"
+          },
+          "hashes": {
+            "sha-256": "648be7a046a5d24d87efedf73beffe0b60d6e47d0d4bf6cc7fbab996cd62d537"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilonumfunc.h"
+          },
+          "hashes": {
+            "sha-256": "a0d12b7e1a5bb6fd0c128790a70bf9ef8f050cb16482efbed9ccd4815d7bd519"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilosegfunc.h"
+          },
+          "hashes": {
+            "sha-256": "24dbc5298bf7887c8758b26c4e868fc457c87dee32e803b0e910b012b896af2f"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilodomaini.h"
+          },
+          "hashes": {
+            "sha-256": "d57b634aaf45d45b222a8c52b408ff5c0e20b2be8bfa6e21ba5ba13afbf792d4"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilohash.h"
+          },
+          "hashes": {
+            "sha-256": "350c7308daaaa6324edb744befceb6d880f7bba7f2ad139655d0c868e03d757b"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/iloalgi.h"
+          },
+          "hashes": {
+            "sha-256": "85246b908f8aa85404d5ea1c5363d1cdc7c5b853eac2cad8f1bed96f3238f371"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/concert/include/ilconcert/ilomodeli.h"
+          },
+          "hashes": {
+            "sha-256": "44278d59578842b76d6ba739c86db49ed614bf6aa1256f0772063b654605940a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cpxconst.h"
+          },
+          "hashes": {
+            "sha-256": "458ecf8cba5be29e06e2c2bbe57268e4c5e93b23f9a05490d8d1d6fd72ce66e2"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cplexl.h"
+          },
+          "hashes": {
+            "sha-256": "b6ce173aca433795a0677bb9f5d5ad238626819d991fdabd9a6dadee4daa1e56"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/ilomodelasst.h"
+          },
+          "hashes": {
+            "sha-256": "e9ca6967c770ba3f219ace16ebb027a111d13edad575efc73c78d3134a012e46"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cplex.h"
+          },
+          "hashes": {
+            "sha-256": "d250fa7eda4bd40b9bc4d7ebf7c6fad75a9bd7ad5503e1972dea53e8fc992860"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cplexremotemaster.h"
+          },
+          "hashes": {
+            "sha-256": "6a3502444020cd44cfe5f4313b38cf1668d6e557ba6a9aa553f787938ce410b9"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cplexremote.h"
+          },
+          "hashes": {
+            "sha-256": "207fe77777a983619402147d78668314d472ff51a3b1e45961955c22aaa2d67a"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/cplexdistmip.h"
+          },
+          "hashes": {
+            "sha-256": "4aca54c86ee1d29d3dad0da38b9a2146bf293ea32f8f59f4f1f265fa8f70bc38"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/ilocpxcallbackinfoenum.h"
+          },
+          "hashes": {
+            "sha-256": "3421e5bcd651ef994be23f74eaabaff951cb444a92686908e8dfe264ea06f3d0"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/ilocpxcallbacksolutionstrategyenum.h"
+          },
+          "hashes": {
+            "sha-256": "72341e9e22ef326ab94231a4c83897eea0f841b3208732ed6fb63c6a8dac23ce"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/ilm.h"
+          },
+          "hashes": {
+            "sha-256": "2c7fa2935d90a62bf175c57cd44d6e506e3f57a3a33c5858f0781185ccde7984"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/program files/ibm/ilog/cplex_studio201/cplex/include/ilcplex/ilogoals.h"
+          },
+          "hashes": {
+            "sha-256": "2c44898bd775436627cbb71ff3ad1f4906517163d65f2965c7728e3907e60974"
+          }
+        },
+        {
+          "location": {
+            "uri": "file:///c:/users/usuario/source/repos/projeto1/projeto1/arquivos.h"
+          },
+          "hashes": {
+            "sha-256": "96a6a6e96cd4d1ab4502cccf3fb4ddba608a35eb6f5313e0dca0fb5345df0665"
+          }
+        }
+      ]
+    }
+  ]
+}
